@@ -1,6 +1,7 @@
 # AssemblyEmulationProject
-This assignment had the goal of making a virtual machine in Java. Each assignment was given weekly, building upon the week prior.  Final outcome is an emulation of a computer, that can take in various inputs despite having some simplicity for the sake of time constraints in assignments.
+The project makes use of assembly language principles within Java to create a virtual machine. The main components of a machine that were imitated, were the processes of a CPU and assembler. The virtual machine, for the CPU functionality, had the capabilities to fetch, decode, execute, and store on any instructions given by a user. The assembler served as the bridge between the computer and human input. Allowing for inputted strings to be converted to binary before being used in the computer method. 
 
-Attached are the 10 assignment pdfs. Detailing what had been required during each week. Followed with the final project after all 10 assignments had been completed.
+The main method is the final outcome of the project, each branch shows each week of progress as a single component for ease of readability. The assembler branch also shows usage of a lexical analyzer and parser to process one given full string. 
 
 I have gotten full credit on every assignment, except Assignment 7 where I lost 3 points due to comments. I also completed the bonus Lexer and Parser, giving me a total of 1017/1000 points for assignments.
+
